@@ -8,8 +8,11 @@ namespace DataAccess
 {
     public class Wallet
     {
-        public Guid WalletId { get; set; }
-        public Guid UserId { get; set; }
+        public int Id { get; set; }
+        public int UserId { get; set; }
+        public User User { get; set; }
+
+        public double Sum { get; set; }
 
     }
 }
